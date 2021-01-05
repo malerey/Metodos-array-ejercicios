@@ -120,11 +120,11 @@ const playlist = ['Everlong', 'The Pretender', 'Learn to Fly'];
 ```js
 const costos = [ 12.5, 56, 98, 45.75 ];
 
-const agregarIVA = function (costo) {
+const agregarIVA = (costo) => {
   return costo * 1.21;
 }
 
-const sumarGanancia = function (costo) {
+const sumarGanancia = (costo) => {
   return costo * 1.5;
 }
 
@@ -148,11 +148,11 @@ console.log(preciosFinales);
 const productos = [ 'celular', 'notebook', 'monitor' ];
 const costos = [ 12.5, 56, 98 ];
 
-const agregarIVA = function (costo) {
+const agregarIVA = (costo) => {
   return costo * 1.21;
 }
 
-const sumarGanancia = function (costo) {
+const sumarGanancia = (costo) => {
   return costo * 1.5;
 }
 
