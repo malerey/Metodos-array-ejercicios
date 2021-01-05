@@ -82,7 +82,7 @@ const librosDeJS = [
 ### 5
 
 * Tenemos un array en una variable `frases` con frases al azar.
-* Usar la función `map` para crear un nuevo array que contenga la longitud de cada palabra.
+* Usar la función `map` para crear un nuevo array que contenga la longitud de cada frase.
 * Mostrar por consola el array original y el nuevo.
 
 ```js
