@@ -115,7 +115,7 @@ const playlist = ['Everlong', 'The Pretender', 'Learn to Fly'];
 
 * Tenemos un array en una variable `costos` con números que representan costos de diferentes productos.
 * Completar el siguiente código para llegar al resultado esperado
-* A un costo primero se le agrega la ganancia y después el IVA
+* A un costo primero se le agrega la ganancia y después el IVA (este ultimo sobre el costo + la ganancia)
 
 ```js
 const costos = [ 12.5, 56, 98, 45.75 ];
